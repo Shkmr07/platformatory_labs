@@ -7,7 +7,7 @@ const { dbConnect } = require("./src/Config/db.config");
 const { UserModel } = require("./src/models/user.model");
 require("./src/Config/passport"); // import passport config
 
-const PORT = 8080;
+const PORT = 5000;;
 const app = express();
 
 // Middleware
